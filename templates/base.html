@@ -1,0 +1,14 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coding Django is perfect!</title>
+</head>
+<body>
+	{% include 'navbar.html' %}
+
+	{% block content %}{% endblock %}
+	<h2>Another content</h2>
+	{% block content_2 %}{% endblock %}
+</body>
+</html>
