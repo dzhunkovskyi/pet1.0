@@ -5,4 +5,4 @@ class Product(models.Model):
 	title = models.TextField()
 	description = models.TextField()
 	price = models.TextField()
-	active = models.TextField(default='This is cool!')
+	summary = models.TextField(default='This is cool!')
