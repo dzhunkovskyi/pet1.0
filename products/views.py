@@ -20,7 +20,7 @@ def create(request):
 	}
 	return render(request, "products/create.html", context)
 
-
+# View to get all products
 def get_all_products(request):
 	products = Product.objects.filter(price__lt=8)
 	context = {}
